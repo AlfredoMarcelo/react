@@ -1,0 +1,19 @@
+.vtex-container-gender-type{
+    display: flex;
+    flex-direction: row;
+    gap: 0px 30px;
+}
+
+.container-gender,
+.container-clothes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px 10px;
+}
+
+.gender-image,
+.clothes-image{
+    object-fit: contain;
+    width: 100%;
+    cursor: pointer;
+}
