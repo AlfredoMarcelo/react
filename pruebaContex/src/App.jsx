@@ -1,18 +1,19 @@
-import AppContext from './AppContext'
-import Navbar from './Navbar'
 import './App.css'
-import Cuerpo from './Cuerpo'
-import Pies from './Pies'
+import ActualizarArreglo from './Components/ActualizarArreglos'
+import ActualizarObjetoEnArray from './Components/ActualizarObjeroEnArray'
+import Arreglos from './Components/Arreglos'
+import ReemplazarElementoArray from './Components/ReemplazarElementoArray'
+import TransformarArreglos from './Components/TransformarArreglos'
 
 function App() {
 
   return (
     <>
-      <AppContext>
-        <Navbar/>
-        <Cuerpo/>
-        <Pies />
-      </AppContext>
+      <Arreglos/>
+      <ActualizarArreglo/>
+      <TransformarArreglos/>
+      <ReemplazarElementoArray/>
+      <ActualizarObjetoEnArray/>
     </>
   )
 }
