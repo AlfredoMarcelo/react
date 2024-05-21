@@ -2,18 +2,22 @@ import './App.css'
 import ActualizarArreglo from './Components/ActualizarArreglos'
 import ActualizarObjetoEnArray from './Components/ActualizarObjeroEnArray'
 import Arreglos from './Components/Arreglos'
+import CarritoDeCompras from './Components/CarritoDeCompras'
 import ReemplazarElementoArray from './Components/ReemplazarElementoArray'
+import Timer from './Components/TimerVanilla'
 import TransformarArreglos from './Components/TransformarArreglos'
 
 function App() {
 
   return (
     <>
-      <Arreglos/>
+      {/*<Arreglos/>
       <ActualizarArreglo/>
       <TransformarArreglos/>
       <ReemplazarElementoArray/>
-      <ActualizarObjetoEnArray/>
+      <CarritoDeCompras/>
+  <ActualizarObjetoEnArray/>*/}
+      <Timer/>
     </>
   )
 }
