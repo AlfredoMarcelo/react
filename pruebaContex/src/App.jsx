@@ -16,8 +16,10 @@ function App() {
       <TransformarArreglos/>
       <ReemplazarElementoArray/>
       <CarritoDeCompras/>
-  <ActualizarObjetoEnArray/>*/}
-      <Timer/>
+  <ActualizarObjetoEnArray/>
+  <Timer/>
+  */}
+      
     </>
   )
 }
